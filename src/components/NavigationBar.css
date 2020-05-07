@@ -1,0 +1,35 @@
+.nav{
+    width: 100vw;
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    background-color: #444;
+}
+.nav .themebox{
+    position: fixed;
+    right: 1%;
+}
+
+.nav .themeicon{
+    width:45px;
+    height:40px;
+    margin-top: 8px;
+}
+.navlist ul {
+
+    list-style: none;
+    padding: 0;
+    margin: 2vh;
+  }
+.navlist li {
+    display: inline-block;
+    font-size: 1.5em;
+    border-bottom: none;
+    padding-left: 3vh;
+    padding: none;
+  }
+.navlist a {
+    text-decoration: none;
+    color: #fff;
+  }
