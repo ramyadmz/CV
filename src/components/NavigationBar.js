@@ -1,16 +1,7 @@
 import React, { Component } from "react";
 import "./NavigationBar.css";
+import data from "../data.json";
 class NavigationBar extends Component {
-    
-    changeTheme = () => {
-    
-        
-      if ( this.props.theme === "theme1")
-           this.props.theme = "theme2"
-           else
-           this.props.theme = "theme3"
-        
-      }; 
     
   render() {
     return (
@@ -30,10 +21,10 @@ class NavigationBar extends Component {
           </ul>
         </div>
         <div className='themebox'>
-          
+
             <img onClick={()=>{
-                this.changeTheme()
-            }} className='themeicon' src="/icons/theme.png" alt="change theme" />
+                this.props.changeTheme()
+            }} className='themeicon' src={data.icons.general.theme} alt="change theme" />
          
         </div>
       </div>
