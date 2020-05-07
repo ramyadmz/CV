@@ -75,6 +75,26 @@
           "html":"/url",
           "css":"/url"
         }
+      },
+      "themes":{
+        "themeI":{
+          "palleteI" : "#3E5050",
+          "palleteII" : "#EDF5E3",
+          "palleteIII" : "#EDF5E3",
+          "palleteIIII" : "#74C697"
+        },
+        "themeII":{
+          "palleteI" : "#444",
+          "palleteII" : "#B2AFAC",
+          "palleteIII" : "#959492",
+          "palleteIIII" : "#FFCE2B"
+        },
+        "themeIII":{
+          "palleteI" : "#59253A",
+          "palleteII" : "#EDF5E3",
+          "palleteIII" : "#EDF5E3",
+          "palleteIIII" : "#2D4159"
+        }
       }
 
 
