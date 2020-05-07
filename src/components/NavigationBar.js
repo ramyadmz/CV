@@ -1,31 +1,36 @@
 import React, { Component } from "react";
+import { Link } from "react-scroll";
 import "./NavigationBar.css";
 import data from "../data.json";
+
 class NavigationBar extends Component {
-    
   render() {
     return (
       <div className="nav">
-        
-        <div className='navlist'> 
+        <div className="navlist">
+          
           <ul>
-            <li>
-              <a href="news.asp">About</a>
+            <li><Link activeClass="active" to="about" spy={true} smooth={true}>
+            <a href="">about</a>
+          </Link></li>
+            <li><Link activeClass="active" to="Experience" spy={true} smooth={true}>
+              <a href="">Experience</a>
+              </Link>
             </li>
-            <li>
-              <a href="contact.asp">Experience</a>
-            </li>
-            <li>
-              <a href="about.asp">Skills</a>
+            <li><Link activeClass="active" to="Skills" spy={true} smooth={true}>
+              <a href="">Skills</a></Link>
             </li>
           </ul>
         </div>
-        <div className='themebox'>
-
-            <img onClick={()=>{
-                this.props.changeTheme()
-            }} className='themeicon' src={data.icons.general.theme} alt="change theme" />
-         
+        <div className="themebox">
+          <img
+            onClick={() => {
+              this.props.changeTheme();
+            }}
+            className="themeicon"
+            src={data.icons.general.theme}
+            alt="change theme"
+          />
         </div>
       </div>
     );
