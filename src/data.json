@@ -65,6 +65,16 @@
             "level" : "2"   
             
         }]
+      },
+      "icons":{
+        "general":{
+          "theme":"icons/theme.png"
+        },
+        "skills":{
+          "js":"/url",
+          "html":"/url",
+          "css":"/url"
+        }
       }
 
 

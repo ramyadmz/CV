@@ -13,23 +13,13 @@ class FirstPage extends Component {
       theme : `themeI`
     }
     this.changeTheme = this.changeTheme.bind(this)
-  }
+  } 
   changeTheme() {
     this.setState({
 
       theme : this.state.theme === `themeIII` ? `themeI` : this.state.theme + `I`
 
     })
-//    let next
-//    switch(this.state.theme) {    
-//        case "theme1" : next = "theme2"
-//        case "theme2" : next = "theme3"
-//        case "theme3" : next = "theme1"
-//      case "theme1" :  return () => { this.setState({ theme : "theme2"  }) ;}
-//      case "theme2" :  return () => {this.setState({ theme : "theme3"  }) ;}
-//      case "theme3" :  return () => {this.setState({ theme : "theme1"  }) ;}
-    
- //   this.setState({ theme : next })
   }
 
   render() {
@@ -55,7 +45,7 @@ class FirstPage extends Component {
                 this.changeTheme();
               }}
               className="themeicon"
-              src="/icons/theme.png"
+              src={data.icons.general.theme}
               alt="change theme"
             />
           </div>
