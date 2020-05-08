@@ -1,13 +1,8 @@
-.icon{
-
-    display: flex;
-    float: left;
-    margin: 5px;
+.icon {
+  display: flex;
+  float: left;
+  margin: 5px;
 }
-.heading
-{
-    line-height: 0px;
-
+.heading {
+  line-height: 0px;
 }
-
-

@@ -2,10 +2,8 @@ import React, { Component } from "react";
 import FullPage from "../components/FullPage";
 import { Element } from "react-scroll";
 import { SocialMediaIconsReact } from "social-media-icons-react";
-
 import "./FirstPage.css";
 import "./theme.css";
-
 import data from "../data.json";
 
 class FirstPage extends Component {

@@ -1,36 +1,33 @@
-.nav{
-    width: 100vw;
-    position: fixed;
-    top: 0;
+.nav {
+  width: 100vw;
+  position: fixed;
+  top: 0;
 
-    display: flex;
-    background-color: #444;
+  display: flex;
+  background-color: #444;
 }
-.nav .themebox{
-    position: fixed;
-    right: 1%;
+.nav .themebox {
+  position: fixed;
+  right: 1%;
 }
 
-.nav .themeicon{
-    width:45px;
-    height:40px;
-    margin-top: 8px;
+.nav .themeicon {
+  width: 45px;
+  height: 40px;
+  margin-top: 8px;
 }
 .navlist ul {
-
-    list-style: none;
-    padding: 0;
-    margin: 2vh;
-  }
+  list-style: none;
+  padding: 0;
+  margin: 2vh;
+}
 .navlist li {
-    display: inline-block;
-    font-size: 1.5em;
-    border-bottom: none;
-    
-
-  }
+  display: inline-block;
+  font-size: 1.5em;
+  border-bottom: none;
+}
 .navlist a {
-    text-decoration: none;
-    color: #fff;
-    padding-left: 3vh;
-  }
+  text-decoration: none;
+  color: #fff;
+  padding-left: 3vh;
+}

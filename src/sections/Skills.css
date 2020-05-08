@@ -1,20 +1,16 @@
-
-.skill-list{
-    display: table-cell;
+.skill-list {
+  display: table-cell;
 }
 .card {
-
-    border:1px solid #ccc;
-    background-color: #444;
-    padding: auto;
-    display: table-cell;
-
-
+  border: 1px solid #ccc;
+  background-color: #444;
+  padding: auto;
+  display: table-cell;
 }
-.skill-icon{
-    margin-inline: 5px;
+.skill-icon {
+  margin-inline: 5px;
 }
-.skill-title{
-    line-height: 0em;
-    text-align: center;
+.skill-title {
+  line-height: 0em;
+  text-align: center;
 }

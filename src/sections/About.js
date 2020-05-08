@@ -1,10 +1,7 @@
 import React, { Component } from "react";
 import FullPage from "../components/FullPage";
 import { Element } from "react-scroll";
-
-
 import "./About.css";
-
 import data from "../data.json";
 
 class About extends Component {
