@@ -20,7 +20,7 @@ class NavigationBar extends Component {
               </Link>
             </li>
             <li>
-              <Link activeClass="active" to="Skills" spy={true} smooth={true}>
+              <Link activeClass="active" to="skills" spy={true} smooth={true}>
                 <a href="">Skills</a>
               </Link>
             </li>
