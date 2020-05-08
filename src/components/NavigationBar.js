@@ -8,17 +8,21 @@ class NavigationBar extends Component {
     return (
       <div className="nav">
         <div className="navlist">
-          
           <ul>
-            <li><Link activeClass="active" to="about" spy={true} smooth={true}>
-            <a href="">about</a>
-          </Link></li>
-            <li><Link activeClass="active" to="Experience" spy={true} smooth={true}>
-              <a href="">Experience</a>
+            <li>
+              <Link activeClass="active" to="home" spy={true} smooth={true}>
+                <a href="">home</a>
               </Link>
             </li>
-            <li><Link activeClass="active" to="Skills" spy={true} smooth={true}>
-              <a href="">Skills</a></Link>
+            <li>
+              <Link activeClass="active" to="about" spy={true} smooth={true}>
+                <a href="">about</a>
+              </Link>
+            </li>
+            <li>
+              <Link activeClass="active" to="Skills" spy={true} smooth={true}>
+                <a href="">Skills</a>
+              </Link>
             </li>
           </ul>
         </div>

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import FirstPage from "./sections/FirstPage";
 import About from "./sections/About";
+import Skills from "./sections/Skills";
 
 import NavigationBar from "./components/NavigationBar";
 
@@ -29,6 +30,8 @@ class App extends Component {
         ></NavigationBar>
         <FirstPage />
         <About />
+        <Skills/>
+
       </div>
     );
   }
