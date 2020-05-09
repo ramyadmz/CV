@@ -8,7 +8,7 @@
   color: #edf5e3;
 }
 .themeI .palete4,
-.themeI svg {
+.themeI .icon svg {
   background-color: #74c697 !important;
 }
 
@@ -16,13 +16,13 @@
   background-color: #444;
 }
 .themeII .palete2 {
-  color: #b2afac;
+  color: #edf5e3;
 }
 .themeII .palete3 {
-  color: #959492;
+  color: #edf5e3;
 }
 .themeII .palete4,
-.themeII svg {
+.themeII .icon svg {
   background-color: #ffce2b !important;
 }
 
@@ -36,6 +36,8 @@
   color: #edf5e3;
 }
 .themeIII .palete4,
-.themeIII svg {
+.themeIII .icon svg {
   background-color: #2d4159 !important;
 }
+
+

@@ -1,12 +1,19 @@
-.skill-list {
-  display: table-cell;
-}
 .card {
   border: 1px solid #ccc;
+  border-radius: 5px;
   background-color: #444;
   padding: auto;
-  display: table-cell;
+  display: inline-block;
+  margin: 0.5vw;
 }
+.card:hover {
+  border-radius: 5px;
+  animation-name: example;
+  animation-duration: 0.25s;
+  border: 2px solid rgb(248, 255, 151);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
 .skill-icon {
   margin-inline: 5px;
 }
