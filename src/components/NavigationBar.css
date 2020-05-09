@@ -40,6 +40,7 @@
   transition: all 0.2s ease-in;
 }
 .themeicon:hover{
+  cursor: pointer;
   -ms-transform: rotate(15deg); /* IE 9 */
   -webkit-transform: rotate(15deg); /* Chrome, Safari, Opera */
   transform: rotate(15deg);

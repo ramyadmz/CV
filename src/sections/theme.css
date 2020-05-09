@@ -42,19 +42,19 @@
 
 .themeIIII {
   background: linear-gradient(-45deg, #08d446, #02d697, #0065c4, #022b5a);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 .themeIIII .palete2 {
   color: #edf5e3;
@@ -66,4 +66,3 @@
 .themeIIII .icon svg {
   background-color: #444 !important;
 }
-

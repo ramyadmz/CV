@@ -27,14 +27,16 @@ class NavigationBar extends Component {
           </ul>
         </div>
         <div className="themebox">
-          <img 
-            onClick={() => {
-              this.props.changeTheme();
-            }}
-            className="themeicon"
-            src={data.icons.general.theme}
-            alt="change theme"
-          />
+          
+              <img
+                onClick={() => {
+                  this.props.changeTheme();
+                }}
+                className="themeicon"
+                src={data.icons.general.theme}
+                alt="change theme"
+              />
+            
         </div>
       </div>
     );

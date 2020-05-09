@@ -43,37 +43,37 @@
       {
         "title": "React",
         "level": "2",
-        "image" : "react"
+        "image": "react"
       },
       {
         "title": "HTML5",
         "level": "2",
-        "image" : "html5"
+        "image": "html5"
       },
       {
         "title": "CSS3",
         "level": "2",
-        "image" : "css3"
+        "image": "css3"
       },
       {
         "title": "Python",
         "level": "1",
-        "image" : "python"
+        "image": "python"
       },
       {
         "title": "C++",
         "level": "3",
-        "image" : "cplusplus"
+        "image": "cplusplus"
       },
       {
         "title": "MongoDB",
         "level": "1",
-        "image" : "mongodb"
+        "image": "mongodb"
       },
       {
         "title": "MySQL",
         "level": "3",
-        "image" : "mysql"
+        "image": "mysql"
       }
     ]
   },
