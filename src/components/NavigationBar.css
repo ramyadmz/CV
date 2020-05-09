@@ -40,6 +40,7 @@
   transition: all 0.2s ease-in;
 }
 .themeicon:hover{
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
+  -ms-transform: rotate(15deg); /* IE 9 */
+  -webkit-transform: rotate(15deg); /* Chrome, Safari, Opera */
+  transform: rotate(15deg);
 }
