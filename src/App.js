@@ -17,7 +17,7 @@ class App extends Component {
   changeTheme() {
     this.setState({
       theme:
-        this.state.theme === `themeIII` ? `themeI` : this.state.theme + `I`,
+        this.state.theme === `themeIIII` ? `themeI` : this.state.theme + `I`,
     });
   }
   render() {
