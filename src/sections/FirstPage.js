@@ -15,9 +15,9 @@ class FirstPage extends Component {
           <FullPage>
             <h1 className="palete2 heading">{data.FirstPage.items.title}</h1>
             <div>
-              <h3 className="palete3 heading">
+              <p className="palete3 heading">
                 {data.FirstPage.items.subtitle}
-              </h3>
+              </p>
             </div>
             <div className="icons-wrapper">
               {Object.keys(data.FirstPage.items.links).map((key) => {
