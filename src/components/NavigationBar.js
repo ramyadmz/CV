@@ -27,7 +27,7 @@ class NavigationBar extends Component {
           </ul>
         </div>
         <div className="themebox">
-          <img
+          <img 
             onClick={() => {
               this.props.changeTheme();
             }}
