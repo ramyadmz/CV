@@ -4,8 +4,7 @@
   margin: 5px;
 }
 .heading {
-  line-height: 0px;
-  
+  /* line-height: 0px; */
 }
 body {
   background: #333;
