@@ -16,7 +16,7 @@ class FirstPage extends Component {
             <h1 className="palete2 heading">{data.FirstPage.items.title}</h1>
             <div>
               <p className="palete3 heading">
-                {data.FirstPage.items.subtitle}
+                {data.FirstPage.items.subtitle} 
               </p>
             </div>
             <div className="icons-wrapper">
