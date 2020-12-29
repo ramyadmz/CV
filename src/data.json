@@ -41,10 +41,16 @@
     "title": "Skills",
     "items": [
       {
+        "title": "React-Native",
+        "level": "2",
+        "image": "reactnative"
+      },
+      {
         "title": "React",
         "level": "2",
         "image": "react"
       },
+
       {
         "title": "HTML5",
         "level": "2",
