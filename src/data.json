@@ -41,9 +41,9 @@
     "title": "Skills",
     "items": [
       {
-        "title": "React-Native",
+        "title": "Go",
         "level": "2",
-        "image": "reactnative"
+        "image": "go-original"
       },
       {
         "title": "React",
